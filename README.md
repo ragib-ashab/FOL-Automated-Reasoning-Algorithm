@@ -1,5 +1,5 @@
 # First-Order Logic Automated Reasoning Algorithm
-*Developed for 3008ICT Assignment 1*
+*Developed for 3806ICT Assignment 1*
 
 ## Overview
 Algorithm 2 from the textbook Fundamentals of Logic and Computation with Practical Automated Reasoning and Verification by Zhe Hou (Chapter 2.3, page 67), is a naïve backward proof search strategy for first-order logic using LK’. This algorithm is mathematically sound but is computationally flawed and frequently fails on more complex problems. Through testing datasets focused on combinatorial explosions, the algorithm goes into a loop and times out. The scope of this program is to implement and improve the automated reasoning Algorithm 2. 
