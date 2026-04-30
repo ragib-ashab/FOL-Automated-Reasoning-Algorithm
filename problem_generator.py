@@ -85,7 +85,6 @@ with open(GeneratedProblems, "w") as all_file, open(metadata_path, "w", newline=
                 csv_writer.writerow([pid, "medium", depth, variation, logic])
     print("Success. Generated medium library: 225 problems.")
 
-    # GENERATE HARD (400)
     hard_filepath = os.path.join(OUTPUT_DIR, "hard_problems.txt")
     with open(hard_filepath, "w") as level_file:
         for depth in range(2, 6):
